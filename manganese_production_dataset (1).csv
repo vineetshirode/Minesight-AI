@@ -1,0 +1,673 @@
+Mine ID,Mine Name,District,State,Mine Type,Date / Month,Production Target (Tonnes),Actual Production (Tonnes),Equipment Availability (%),Equipment Downtime (Hours),Rainfall (mm),Blasting Delay (Days),Working Days
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Jan-2022,33400,33280,94.3,34,13.0,0,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Feb-2022,34300,33090,96.3,23,11.4,0,26
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Mar-2022,36100,34520,96.2,23,9.3,0,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Apr-2022,35100,34520,96.5,22,5.2,0,26
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,May-2022,34200,32400,94.1,34,14.8,0,24
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Jun-2022,36200,32440,93.7,38,111.2,0,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Jul-2022,35300,30050,97.0,19,463.8,4,26
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Aug-2022,35500,30410,93.3,40,220.9,5,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Sep-2022,35800,32440,91.7,52,232.2,3,26
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Oct-2022,35500,34340,96.0,23,43.5,0,24
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Nov-2022,36200,35550,97.4,16,10.7,0,26
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Dec-2022,34900,35440,98.5,5,7.0,0,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Jan-2023,33000,31540,92.2,45,15.1,0,24
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Feb-2023,33900,32810,92.6,46,8.7,0,26
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Mar-2023,36900,36750,96.0,25,15.7,0,26
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Apr-2023,35400,34190,95.2,29,8.5,0,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,May-2023,35600,32350,94.3,33,11.5,0,24
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Jun-2023,32300,32960,94.4,35,158.9,0,26
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Jul-2023,34200,30380,93.6,40,340.0,3,26
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Aug-2023,36100,29960,89.6,65,305.2,3,26
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Sep-2023,34300,30190,87.2,74,233.9,3,24
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Oct-2023,33500,34350,97.2,17,39.1,0,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Nov-2023,34500,33450,92.0,48,11.4,0,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Dec-2023,35400,33070,97.7,14,6.0,1,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Jan-2024,35900,35670,94.7,33,15.7,0,26
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Feb-2024,37600,37760,97.5,15,11.2,0,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Mar-2024,36100,35810,94.0,36,19.8,0,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Apr-2024,33800,33240,95.3,28,6.4,0,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,May-2024,38800,38250,97.9,13,12.3,0,26
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Jun-2024,33500,31500,94.8,30,179.3,2,24
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Jul-2024,34400,30130,90.7,56,453.8,2,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Aug-2024,35200,30970,96.7,20,433.1,5,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Sep-2024,36500,34930,91.0,52,192.4,0,24
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Oct-2024,35700,38260,93.7,38,39.5,0,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Nov-2024,35300,33220,97.6,15,10.4,0,26
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Dec-2024,38200,34920,92.9,41,2.7,0,24
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Jan-2025,33700,32000,90.4,60,11.0,0,26
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Feb-2025,35100,32610,86.8,76,8.4,1,24
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Mar-2025,36500,33900,96.2,23,12.6,0,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Apr-2025,35700,34830,97.6,15,9.7,0,26
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,May-2025,36300,36770,94.0,36,15.8,0,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Jun-2025,36800,35610,93.0,42,131.7,0,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Jul-2025,33200,29150,98.5,9,370.0,3,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Aug-2025,37000,32730,89.8,59,253.2,2,24
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Sep-2025,34700,32490,92.0,46,192.9,0,24
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Oct-2025,38000,37090,95.5,27,17.9,1,25
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Nov-2025,34300,31840,92.2,45,10.5,1,24
+MOIL_BAL_01,Balaghat Underground Mine,Balaghat,Madhya Pradesh,Underground,Dec-2025,35500,33830,92.5,45,4.1,1,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Jan-2022,12300,11720,98.3,10,9.9,0,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Feb-2022,11900,11530,92.9,44,12.7,1,26
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Mar-2022,11700,11520,95.7,26,18.6,1,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Apr-2022,12200,12040,94.6,31,7.7,0,24
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,May-2022,12600,12330,92.8,43,8.4,0,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Jun-2022,12000,11170,91.0,54,132.9,0,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Jul-2022,12300,10890,95.3,27,509.0,4,24
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Aug-2022,11300,10140,96.0,23,256.0,3,24
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Sep-2022,11900,11360,96.2,23,189.8,0,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Oct-2022,12200,11780,95.3,28,48.4,1,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Nov-2022,12000,11590,93.8,37,12.5,0,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Dec-2022,13000,12530,92.5,45,4.0,0,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Jan-2023,11900,12030,98.1,12,14.9,0,26
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Feb-2023,11600,11680,94.2,35,10.4,1,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Mar-2023,12400,11860,93.2,41,20.5,0,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Apr-2023,12600,12790,98.3,10,7.1,1,24
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,May-2023,10800,10360,95.5,28,9.3,1,26
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Jun-2023,12000,11700,95.8,26,161.9,0,26
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Jul-2023,11300,10490,91.0,56,430.9,2,26
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Aug-2023,12700,11050,90.2,59,406.4,3,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Sep-2023,11500,10860,89.3,67,177.2,0,26
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Oct-2023,12500,11540,97.4,15,19.6,0,24
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Nov-2023,11800,11390,92.2,47,13.3,0,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Dec-2023,11200,10830,94.2,36,4.9,0,26
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Jan-2024,11900,11720,97.5,15,11.8,1,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Feb-2024,11500,10980,96.3,22,11.3,0,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Mar-2024,11300,10210,94.8,30,14.3,0,24
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Apr-2024,11700,11320,95.5,28,8.4,0,26
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,May-2024,11700,10660,85.6,83,8.3,0,24
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Jun-2024,12300,10910,80.4,122,172.5,1,26
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Jul-2024,11600,10520,94.8,31,294.1,2,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Aug-2024,12800,11910,94.3,34,482.1,3,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Sep-2024,11800,10420,95.5,27,265.1,3,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Oct-2024,11300,10880,96.7,20,39.9,0,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Nov-2024,10800,10230,93.8,36,11.7,1,24
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Dec-2024,12200,12110,94.8,31,3.8,0,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Jan-2025,11700,10410,94.6,34,9.0,0,26
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Feb-2025,12300,11540,95.3,28,5.8,0,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Mar-2025,11700,11400,91.7,50,17.9,0,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Apr-2025,12300,11680,94.2,35,7.6,0,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,May-2025,12200,11890,95.1,28,16.7,0,24
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Jun-2025,12200,11870,93.2,39,143.2,2,24
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Jul-2025,11900,9850,96.2,23,503.6,4,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Aug-2025,12200,9970,91.5,51,373.4,3,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Sep-2025,12100,10880,96.4,21,217.0,3,24
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Oct-2025,12100,11490,96.2,23,37.2,0,25
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Nov-2025,12700,12700,95.8,24,11.0,0,24
+MOIL_UKW_02,Ukwa Underground Mine,Balaghat,Madhya Pradesh,Underground,Dec-2025,11900,11780,96.3,23,3.8,0,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Jan-2022,23200,23080,98.2,11,15.0,0,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Feb-2022,20400,19560,93.4,41,13.7,0,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Mar-2022,21800,20760,89.0,66,15.2,0,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Apr-2022,23700,21570,89.4,61,10.7,1,24
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,May-2022,24200,23220,96.5,21,13.6,1,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Jun-2022,21100,19460,89.8,59,93.8,0,24
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Jul-2022,20700,17560,96.6,21,355.2,3,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Aug-2022,21800,17680,84.8,91,463.8,3,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Sep-2022,21300,19610,93.1,40,182.2,0,24
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Oct-2022,22200,21240,96.6,21,33.7,0,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Nov-2022,23200,22130,98.5,8,3.4,0,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Dec-2022,20800,21560,97.4,15,4.0,0,24
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Jan-2023,21900,20980,96.8,20,12.1,0,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Feb-2023,21500,21610,97.6,14,11.2,0,24
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Mar-2023,22200,20270,90.1,62,15.9,0,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Apr-2023,22300,21240,92.6,46,5.5,0,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,May-2023,23200,21300,92.8,43,6.7,0,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Jun-2023,22200,20680,95.2,29,156.1,1,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Jul-2023,21700,17540,83.5,103,507.9,2,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Aug-2023,22000,17560,95.4,29,429.3,5,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Sep-2023,20600,17350,83.2,97,216.2,2,24
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Oct-2023,22200,20920,89.1,63,43.6,1,24
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Nov-2023,22300,21920,96.0,24,4.1,0,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Dec-2023,21200,21520,97.2,17,3.3,0,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Jan-2024,22100,20250,93.3,40,12.5,0,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Feb-2024,23000,23530,95.2,29,8.2,0,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Mar-2024,22400,22580,97.3,16,17.0,0,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Apr-2024,21900,20330,94.4,32,9.2,0,24
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,May-2024,23100,22970,96.3,23,15.2,0,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Jun-2024,22400,19780,92.8,45,168.3,0,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Jul-2024,22400,18010,88.7,68,359.7,3,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Aug-2024,22100,18500,95.0,31,349.4,3,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Sep-2024,21800,18600,91.8,49,196.4,0,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Oct-2024,22200,22010,94.8,31,42.8,0,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Nov-2024,23100,20630,96.5,22,8.3,1,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Dec-2024,21600,20080,90.2,61,6.8,0,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Jan-2025,21100,20120,98.5,9,8.8,0,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Feb-2025,22900,22720,95.4,29,9.5,0,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Mar-2025,23000,22700,98.2,11,21.1,0,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Apr-2025,21400,19830,90.1,57,10.4,0,24
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,May-2025,21400,20360,86.9,82,9.9,0,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Jun-2025,21500,19760,92.6,46,144.5,1,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Jul-2025,20500,16880,89.4,61,260.6,2,24
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Aug-2025,21500,18530,93.5,39,417.1,3,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Sep-2025,23200,22120,97.8,14,136.2,1,26
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Oct-2025,22700,22210,91.8,49,39.4,0,25
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Nov-2025,21700,21230,96.5,20,7.9,1,24
+MOIL_TIR_03,Tirodi Opencast Mine,Balaghat,Madhya Pradesh,Opencast,Dec-2025,22200,22390,97.8,13,5.1,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Jan-2022,8100,7820,93.9,38,10.8,0,26
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Feb-2022,7900,7300,92.1,49,10.5,0,26
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Mar-2022,7800,7400,94.2,35,15.5,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Apr-2022,8500,8650,96.3,22,7.9,1,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,May-2022,7600,7510,93.3,40,11.5,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Jun-2022,7600,6720,90.8,55,194.9,1,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Jul-2022,8300,6860,95.5,27,360.4,3,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Aug-2022,8000,6580,92.2,47,505.3,4,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Sep-2022,7700,6710,88.6,71,205.4,2,26
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Oct-2022,7800,7060,95.0,29,50.8,1,24
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Nov-2022,7800,7590,95.8,25,12.5,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Dec-2022,7500,7280,92.8,43,6.0,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Jan-2023,7900,7270,86.0,84,10.8,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Feb-2023,8100,7730,95.5,26,4.9,0,24
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Mar-2023,8100,7870,92.2,47,11.0,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Apr-2023,8400,7860,94.8,30,9.8,1,24
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,May-2023,7800,7770,95.0,31,15.3,0,26
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Jun-2023,8600,7900,95.3,28,167.9,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Jul-2023,7700,6600,91.3,54,329.7,3,26
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Aug-2023,8000,6480,91.3,54,406.9,2,26
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Sep-2023,8300,7640,89.7,62,184.7,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Oct-2023,8100,7330,89.5,63,44.2,1,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Nov-2023,7500,7240,93.1,43,8.6,0,26
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Dec-2023,7800,7580,93.7,38,5.5,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Jan-2024,8100,7990,98.2,11,11.1,0,26
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Feb-2024,8400,7930,96.0,24,5.7,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Mar-2024,8400,8220,98.2,11,12.3,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Apr-2024,8300,8100,98.2,11,7.0,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,May-2024,8300,7840,91.0,52,15.7,0,24
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Jun-2024,7900,7110,93.9,38,152.1,2,26
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Jul-2024,8000,7020,93.8,36,281.7,2,24
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Aug-2024,8300,6100,88.9,64,429.2,3,24
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Sep-2024,7700,6360,92.0,46,220.6,4,24
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Oct-2024,8300,8050,94.4,32,39.3,0,24
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Nov-2024,7900,7760,94.9,32,10.2,0,26
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Dec-2024,8500,8040,94.3,34,3.6,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Jan-2025,8300,8250,94.4,35,11.2,1,26
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Feb-2025,8400,8260,93.5,39,6.9,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Mar-2025,8000,7490,97.8,14,11.1,0,26
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Apr-2025,7800,7570,89.7,62,5.4,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,May-2025,8000,7800,96.2,23,15.4,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Jun-2025,8300,6830,87.3,76,257.6,4,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Jul-2025,7900,6730,94.2,36,417.2,3,26
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Aug-2025,7700,6790,92.8,43,286.0,3,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Sep-2025,7800,7290,94.1,37,114.6,0,26
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Oct-2025,7800,7750,98.2,11,37.8,0,25
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Nov-2025,7800,7450,94.1,37,10.2,1,26
+MOIL_SIT_04,Sitapatore Mine,Balaghat,Madhya Pradesh,Opencast,Dec-2025,7800,8000,97.9,13,4.2,1,26
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Jan-2022,33000,31110,92.8,43,6.6,0,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Feb-2022,30900,30230,97.4,15,7.7,1,24
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Mar-2022,33600,33380,98.0,12,14.1,0,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Apr-2022,31000,28170,89.5,63,16.9,1,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,May-2022,32400,32470,98.1,11,15.6,0,24
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Jun-2022,31300,28010,95.5,28,130.6,1,26
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Jul-2022,31200,25170,88.7,65,399.6,3,24
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Aug-2022,33600,28570,85.8,85,216.3,2,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Sep-2022,30700,28150,96.0,24,196.8,1,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Oct-2022,33400,31190,97.3,16,57.6,2,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Nov-2022,32100,31590,96.8,19,19.6,0,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Dec-2022,32900,30590,97.0,19,6.2,1,26
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Jan-2023,30900,27310,87.3,76,4.8,1,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Feb-2023,32100,29990,92.3,46,4.9,1,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Mar-2023,31400,30580,97.6,15,9.4,0,26
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Apr-2023,33400,33240,95.4,29,13.4,0,26
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,May-2023,28800,27170,95.8,24,18.3,0,24
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Jun-2023,32100,29300,93.4,38,198.2,1,24
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Jul-2023,32400,26670,91.3,52,272.6,2,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Aug-2023,31700,26350,92.5,43,425.5,2,24
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Sep-2023,31500,28010,92.0,46,140.0,1,24
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Oct-2023,32600,28960,92.6,46,64.9,1,26
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Nov-2023,31800,29450,96.2,22,18.7,1,24
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Dec-2023,31300,31040,96.5,22,1.8,0,26
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Jan-2024,30700,32260,98.5,8,7.9,0,24
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Feb-2024,31400,32160,95.5,27,3.9,0,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Mar-2024,32400,29760,91.5,51,10.5,0,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Apr-2024,34800,33730,93.3,42,10.2,0,26
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,May-2024,30500,30980,94.6,31,18.3,0,24
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Jun-2024,31500,28210,96.9,18,183.1,1,24
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Jul-2024,31400,26240,92.3,46,302.9,2,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Aug-2024,33300,31020,97.0,17,251.3,2,24
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Sep-2024,32800,28310,95.2,29,222.0,4,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Oct-2024,32100,29910,90.0,60,53.4,1,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Nov-2024,32700,30710,96.4,21,14.2,0,24
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Dec-2024,31700,30960,94.3,34,4.7,1,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Jan-2025,33100,31400,91.7,52,6.4,0,26
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Feb-2025,32200,30500,94.0,36,3.4,0,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Mar-2025,32600,31050,86.5,81,11.8,0,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Apr-2025,33000,31890,91.0,54,13.1,0,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,May-2025,33100,30880,90.6,54,13.8,0,24
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Jun-2025,30500,26640,88.8,70,194.5,0,26
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Jul-2025,30100,24770,95.0,31,246.0,5,26
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Aug-2025,34200,29820,92.7,44,279.0,3,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Sep-2025,33500,29720,92.8,43,145.6,1,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Oct-2025,34000,31060,87.2,74,75.1,2,24
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Nov-2025,32000,29790,91.7,50,19.9,0,25
+MOIL_DON_05,Dongri Buzurg Mine,Bhandara,Maharashtra,Opencast,Dec-2025,30500,28230,96.7,20,4.8,0,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Jan-2022,18100,16410,88.7,68,9.2,0,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Feb-2022,17700,17330,88.5,69,6.4,0,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Mar-2022,17600,17520,98.5,9,11.9,0,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Apr-2022,18400,16560,97.5,15,10.4,0,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,May-2022,15900,15590,92.8,45,17.3,0,26
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Jun-2022,18600,16870,94.4,32,228.7,2,24
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Jul-2022,17400,16700,95.4,29,261.6,2,26
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Aug-2022,16300,14190,92.0,48,378.5,3,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Sep-2022,18500,17030,94.9,32,174.1,1,26
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Oct-2022,18600,17000,94.6,34,34.3,1,26
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Nov-2022,17400,16490,96.2,23,13.8,1,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Dec-2022,17300,17070,94.0,36,5.1,0,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Jan-2023,17900,17380,97.7,14,6.3,1,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Feb-2023,16300,16660,93.3,40,3.7,0,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Mar-2023,17500,17460,96.6,21,9.9,0,26
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Apr-2023,18100,17100,94.2,35,16.9,1,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,May-2023,18200,17300,95.3,28,17.9,0,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Jun-2023,18200,17510,95.5,27,142.1,2,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Jul-2023,16700,15140,93.2,41,357.1,4,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Aug-2023,18000,15480,92.8,43,376.1,3,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Sep-2023,17800,16500,96.0,25,190.5,1,26
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Oct-2023,19500,19660,94.8,30,36.7,0,24
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Nov-2023,18800,18360,97.6,15,20.4,0,26
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Dec-2023,18400,17410,94.7,32,5.4,1,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Jan-2024,19300,17750,96.0,25,8.7,0,26
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Feb-2024,18900,18060,97.2,17,5.0,1,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Mar-2024,17600,16190,96.5,20,9.0,0,24
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Apr-2024,18700,18050,94.0,36,10.7,0,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,May-2024,18900,18740,96.0,24,13.0,0,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Jun-2024,18100,16120,96.8,19,259.8,3,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Jul-2024,18500,17190,97.2,17,396.7,3,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Aug-2024,17900,15650,90.5,57,234.5,3,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Sep-2024,17900,17370,95.2,30,129.9,0,26
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Oct-2024,18500,18690,97.3,17,57.7,0,26
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Nov-2024,18200,17950,97.3,17,12.6,0,26
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Dec-2024,18600,17730,97.3,16,3.0,0,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Jan-2025,18300,17670,92.8,45,9.8,0,26
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Feb-2025,18100,17680,97.2,17,6.5,1,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Mar-2025,18500,17930,98.5,9,16.7,0,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Apr-2025,17900,17520,89.7,62,14.9,0,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,May-2025,17300,15410,95.7,26,18.1,1,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Jun-2025,18000,16400,96.0,24,249.2,3,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Jul-2025,17800,16140,93.0,42,164.2,0,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Aug-2025,17800,16760,93.3,40,251.7,2,25
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Sep-2025,17400,16660,96.8,20,161.7,1,26
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Oct-2025,19400,18080,96.8,20,49.2,0,26
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Nov-2025,18600,17260,92.6,46,20.7,1,26
+MOIL_CHK_06,Chikla Mine,Bhandara,Maharashtra,Underground,Dec-2025,17700,17090,89.2,62,5.2,0,24
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Jan-2022,13500,12570,90.2,59,7.4,0,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Feb-2022,14100,14470,97.3,16,5.6,0,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Mar-2022,14100,13670,94.0,36,11.9,1,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Apr-2022,13400,12930,95.0,29,12.3,0,24
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,May-2022,12900,12830,92.7,44,21.3,0,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Jun-2022,13300,11310,90.8,55,215.2,4,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Jul-2022,13000,12150,98.2,11,281.1,4,26
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Aug-2022,13400,12090,97.0,18,278.2,3,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Sep-2022,14000,13820,97.6,14,163.1,1,24
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Oct-2022,14500,13740,97.7,14,70.2,1,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Nov-2022,14000,13420,95.2,29,10.7,0,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Dec-2022,14000,14090,95.5,26,4.5,1,24
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Jan-2023,13900,13610,94.3,33,8.5,1,24
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Feb-2023,13900,13290,98.2,11,5.6,0,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Mar-2023,14900,15060,95.7,26,10.6,0,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Apr-2023,13900,14080,98.5,8,10.6,0,24
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,May-2023,13900,13780,94.3,34,28.5,0,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Jun-2023,13700,11190,82.5,105,170.4,2,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Jul-2023,14100,12970,95.5,28,490.4,2,26
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Aug-2023,14200,12370,90.7,58,307.7,3,26
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Sep-2023,14400,12480,93.7,38,139.2,1,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Oct-2023,14000,13320,93.9,38,53.6,2,26
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Nov-2023,14700,14740,95.5,27,14.2,0,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Dec-2023,14000,13760,92.0,50,4.5,0,26
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Jan-2024,14600,14050,97.0,18,6.9,0,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Feb-2024,14500,14170,93.3,42,5.6,0,26
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Mar-2024,14400,14070,93.8,39,13.0,0,26
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Apr-2024,13900,13570,96.7,20,9.8,0,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,May-2024,14000,13590,96.3,23,20.7,0,26
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Jun-2024,13100,11930,96.5,22,141.6,2,26
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Jul-2024,13800,12120,97.8,13,393.8,5,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Aug-2024,14800,13760,98.5,4,208.6,3,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Sep-2024,13400,12030,91.1,51,203.2,3,24
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Oct-2024,14200,13020,95.2,29,43.6,0,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Nov-2024,13600,12400,92.2,47,15.1,1,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Dec-2024,14500,14080,96.5,20,3.9,0,24
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Jan-2025,14600,14650,95.7,27,6.7,0,26
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Feb-2025,14100,13920,98.5,6,4.3,0,26
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Mar-2025,14300,13670,94.4,32,8.0,1,24
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Apr-2025,13700,13680,93.6,40,11.1,0,26
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,May-2025,12400,12170,98.1,12,18.1,0,26
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Jun-2025,13700,12300,93.1,40,238.5,3,24
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Jul-2025,13800,12820,91.0,54,371.0,2,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Aug-2025,13500,13040,97.2,17,397.2,2,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Sep-2025,13500,13240,98.2,11,110.0,0,26
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Oct-2025,13900,13640,98.5,5,37.6,0,25
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Nov-2025,14300,13380,87.5,72,14.8,0,24
+MOIL_GUM_07,Gumgaon Mine,Nagpur,Maharashtra,Underground,Dec-2025,14200,13920,93.4,41,5.0,0,26
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Jan-2022,15600,15580,98.5,7,6.5,0,24
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Feb-2022,15100,14760,94.7,32,5.1,0,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Mar-2022,14800,14180,96.8,19,9.6,0,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Apr-2022,15000,14510,97.7,14,12.7,0,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,May-2022,15200,14510,94.2,35,24.4,0,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Jun-2022,14500,13680,95.0,30,120.0,2,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Jul-2022,14300,13010,94.6,34,326.8,3,26
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Aug-2022,14900,13890,94.8,31,282.3,3,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Sep-2022,14900,13810,92.7,42,117.6,2,24
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Oct-2022,14000,12200,87.3,73,55.8,1,24
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Nov-2022,15300,15130,95.2,30,12.8,0,26
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Dec-2022,16100,14850,92.7,42,4.8,0,24
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Jan-2023,15000,14340,93.3,40,11.1,0,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Feb-2023,15500,15290,96.2,23,4.4,0,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Mar-2023,14500,13360,96.8,19,10.8,1,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Apr-2023,14600,13320,90.1,57,16.0,1,24
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,May-2023,15700,14430,94.0,36,15.3,0,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Jun-2023,15000,14470,95.5,27,133.3,1,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Jul-2023,15300,13990,96.5,21,563.9,4,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Aug-2023,14900,14160,94.9,32,381.4,2,26
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Sep-2023,14700,14280,95.3,28,126.4,0,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Oct-2023,13400,12850,94.1,37,52.5,1,26
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Nov-2023,14400,14420,95.0,31,16.6,0,26
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Dec-2023,15200,14910,96.5,20,4.4,0,24
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Jan-2024,14400,14040,91.3,52,6.5,0,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Feb-2024,15700,15350,96.2,23,3.8,1,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Mar-2024,15900,15700,96.6,21,5.7,0,26
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Apr-2024,15300,14030,93.1,40,16.2,0,24
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,May-2024,15000,14410,94.9,32,13.7,0,26
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Jun-2024,16100,14250,91.5,53,222.6,2,26
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Jul-2024,15300,13410,91.8,49,377.4,3,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Aug-2024,15400,13820,95.8,25,345.2,3,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Sep-2024,15300,13220,92.5,45,207.8,5,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Oct-2024,14600,13660,94.6,34,47.0,0,26
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Nov-2024,14800,14800,97.1,18,13.2,1,26
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Dec-2024,15400,14210,88.3,70,6.4,1,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Jan-2025,14600,14140,97.8,13,5.9,0,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Feb-2025,15900,15000,92.0,46,4.1,0,24
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Mar-2025,14900,14210,93.7,38,10.4,0,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Apr-2025,14200,13350,96.5,22,11.1,0,26
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,May-2025,15000,13930,97.3,17,17.0,0,26
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Jun-2025,14400,14250,96.2,23,138.8,0,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Jul-2025,14200,12110,94.1,37,278.7,5,26
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Aug-2025,14800,13490,89.8,61,426.1,2,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Sep-2025,15600,14890,96.7,20,122.3,2,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Oct-2025,15200,14290,93.0,42,70.8,1,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Nov-2025,14800,14420,95.3,28,17.1,1,25
+MOIL_KAN_08,Kandri Mine,Nagpur,Maharashtra,Underground,Dec-2025,14400,13190,95.7,27,3.9,1,26
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Jan-2022,10800,10080,90.7,56,11.5,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Feb-2022,11100,10450,93.2,39,5.4,0,24
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Mar-2022,10600,10210,96.7,20,9.8,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Apr-2022,11100,10130,94.1,37,13.2,1,26
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,May-2022,11100,10830,92.5,45,21.9,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Jun-2022,10900,10410,93.5,39,99.8,2,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Jul-2022,11300,10630,92.2,47,226.2,3,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Aug-2022,10700,9610,98.2,11,272.9,3,26
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Sep-2022,11000,10050,89.0,66,149.0,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Oct-2022,10900,10120,97.2,16,56.8,2,24
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Nov-2022,11100,10460,97.0,18,10.9,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Dec-2022,10400,9480,92.3,48,4.2,1,26
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Jan-2023,10400,10330,97.0,18,7.5,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Feb-2023,10900,10230,94.7,32,5.2,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Mar-2023,11200,11330,97.2,17,11.4,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Apr-2023,11400,11040,94.0,36,11.2,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,May-2023,10300,10240,96.3,22,11.8,1,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Jun-2023,11900,10800,98.5,7,233.7,4,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Jul-2023,10400,8970,91.2,53,367.9,2,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Aug-2023,11100,9980,96.5,21,343.6,3,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Sep-2023,11100,11380,94.5,33,157.3,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Oct-2023,10500,10410,92.7,44,36.3,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Nov-2023,11100,10160,91.7,52,14.8,0,26
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Dec-2023,10900,10350,92.3,48,4.9,0,26
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Jan-2024,11400,10270,94.5,33,6.8,1,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Feb-2024,11300,11760,98.0,12,3.4,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Mar-2024,10900,10930,97.5,15,11.6,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Apr-2024,11300,10380,94.0,36,16.2,1,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,May-2024,11000,10650,93.2,41,24.3,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Jun-2024,11200,10540,89.4,66,198.7,2,26
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Jul-2024,11500,10080,94.8,30,493.8,2,24
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Aug-2024,10700,9770,94.8,31,375.9,2,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Sep-2024,10800,9680,90.8,55,191.7,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Oct-2024,11400,10520,92.0,50,32.2,0,26
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Nov-2024,11300,10900,97.7,14,18.2,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Dec-2024,11300,10570,90.1,57,3.8,0,24
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Jan-2025,11200,10670,95.8,25,8.2,1,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Feb-2025,11300,11280,93.6,40,4.4,0,26
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Mar-2025,10600,10450,95.8,26,7.5,0,26
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Apr-2025,11600,11600,93.2,41,8.4,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,May-2025,11300,10830,91.5,49,19.7,0,24
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Jun-2025,11500,10780,95.7,26,252.4,2,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Jul-2025,11100,10050,98.5,9,371.3,5,26
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Aug-2025,11400,10440,96.2,23,304.9,3,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Sep-2025,10900,9520,94.1,34,253.4,3,24
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Oct-2025,10800,10710,94.2,35,34.9,0,25
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Nov-2025,11200,10550,92.4,44,20.8,1,24
+MOIL_MUN_09,Munsar Mine,Nagpur,Maharashtra,Underground,Dec-2025,11200,10990,95.8,25,3.6,0,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Jan-2022,7200,7060,95.5,27,7.1,0,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Feb-2022,6800,6410,93.1,43,5.4,1,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Mar-2022,7100,7010,96.6,21,12.2,0,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Apr-2022,7200,7080,95.5,28,15.6,0,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,May-2022,7100,6930,97.0,19,17.1,0,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Jun-2022,6600,6170,95.7,26,100.5,0,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Jul-2022,6800,6380,97.2,16,274.6,2,24
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Aug-2022,6800,5830,95.3,27,378.3,2,24
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Sep-2022,7000,6590,93.5,39,154.7,1,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Oct-2022,6700,6260,95.2,29,39.4,0,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Nov-2022,6300,6020,92.9,44,21.9,1,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Dec-2022,6500,5740,96.5,22,3.5,0,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Jan-2023,6600,6760,96.2,24,9.9,0,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Feb-2023,6900,6550,97.6,14,5.3,0,24
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Mar-2023,7200,6960,97.5,15,13.7,0,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Apr-2023,6800,6570,96.2,23,13.3,1,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,May-2023,7100,7180,96.2,22,23.5,0,24
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Jun-2023,7100,6740,97.0,19,197.7,0,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Jul-2023,7200,5950,90.0,60,385.5,2,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Aug-2023,6800,6020,94.3,33,374.3,2,24
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Sep-2023,6800,6130,98.5,8,74.9,0,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Oct-2023,6900,6570,96.0,24,64.6,0,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Nov-2023,6700,6080,94.5,33,17.9,0,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Dec-2023,7500,7390,96.0,25,3.1,0,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Jan-2024,6700,6500,97.5,15,7.2,0,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Feb-2024,7100,6770,97.6,15,5.9,1,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Mar-2024,7000,6590,90.6,54,10.2,0,24
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Apr-2024,7000,6550,94.9,32,13.5,0,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,May-2024,7300,7070,92.5,47,14.0,1,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Jun-2024,7400,6910,97.4,16,127.4,1,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Jul-2024,6600,6070,95.2,30,394.4,2,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Aug-2024,6700,6360,92.5,43,305.7,2,24
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Sep-2024,6900,5970,89.1,68,189.8,2,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Oct-2024,7500,7080,93.5,39,46.6,0,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Nov-2024,6900,6350,95.7,26,19.6,0,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Dec-2024,7100,7050,98.2,11,6.0,0,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Jan-2025,6700,6550,97.1,18,10.5,1,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Feb-2025,7400,7190,92.5,45,4.7,0,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Mar-2025,7100,6710,85.4,84,7.2,1,24
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Apr-2025,7200,6330,87.2,74,13.3,0,24
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,May-2025,7200,6990,97.1,18,9.4,0,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Jun-2025,7500,7170,92.2,47,113.0,0,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Jul-2025,7100,6210,97.5,15,230.6,3,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Aug-2025,6200,5450,97.4,16,266.9,4,26
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Sep-2025,6400,5570,93.0,42,178.1,0,25
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Oct-2025,6800,6440,94.8,30,52.0,1,24
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Nov-2025,6800,6720,94.4,32,17.3,0,24
+MOIL_BEL_10,Beldongri Mine,Nagpur,Maharashtra,Underground,Dec-2025,6400,6100,94.0,36,5.5,0,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Jan-2022,24700,23290,97.0,18,21.5,0,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Feb-2022,24600,23930,95.7,25,15.4,0,24
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Mar-2022,23400,22510,93.4,41,29.6,0,26
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Apr-2022,26600,25750,96.3,22,63.3,0,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,May-2022,26300,25630,97.6,15,43.2,0,26
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Jun-2022,26200,24610,97.8,13,245.3,2,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Jul-2022,24300,19490,91.2,53,441.2,3,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Aug-2022,25900,22060,94.7,33,366.6,3,26
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Sep-2022,23800,21090,98.0,12,267.0,2,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Oct-2022,23800,21650,95.8,26,86.9,1,26
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Nov-2022,25300,23160,96.0,24,28.1,0,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Dec-2022,26300,25570,94.8,30,7.6,0,24
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Jan-2023,24500,23910,93.8,37,15.2,0,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Feb-2023,24700,23140,95.0,30,18.5,1,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Mar-2023,25700,22580,97.0,18,27.2,1,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Apr-2023,24600,24160,98.5,6,52.6,1,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,May-2023,25700,24060,96.5,20,75.2,1,24
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Jun-2023,25200,22010,95.8,24,292.3,3,24
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Jul-2023,24700,22480,95.8,26,262.3,2,26
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Aug-2023,25500,21240,88.5,69,326.2,4,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Sep-2023,23900,20810,84.8,91,293.6,2,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Oct-2023,24400,23560,96.8,19,59.5,2,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Nov-2023,25500,25590,96.7,20,19.0,0,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Dec-2023,25500,22700,89.3,64,9.8,0,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Jan-2024,26800,26740,93.0,42,12.2,0,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Feb-2024,25700,24490,94.2,35,27.9,0,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Mar-2024,22900,21840,98.5,8,25.1,0,26
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Apr-2024,26900,27070,97.0,18,38.9,1,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,May-2024,27000,25790,91.8,49,49.5,0,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Jun-2024,24300,20770,92.5,45,309.8,4,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Jul-2024,26200,22570,95.7,27,272.9,3,26
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Aug-2024,25000,20840,97.0,19,464.9,3,26
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Sep-2024,25300,20860,90.7,56,292.9,2,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Oct-2024,26400,24760,95.8,25,110.7,2,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Nov-2024,27800,26260,92.2,45,11.5,0,24
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Dec-2024,24800,23230,94.3,34,7.9,1,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Jan-2025,26000,25720,97.2,17,21.3,0,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Feb-2025,24100,22970,92.9,41,31.5,0,24
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Mar-2025,26100,26700,94.1,37,19.7,0,26
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Apr-2025,24000,24970,95.8,26,41.7,0,26
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,May-2025,24400,24230,97.0,18,89.2,0,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Jun-2025,25500,21970,93.2,39,313.5,3,24
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Jul-2025,25200,19890,91.5,53,489.1,3,26
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Aug-2025,24900,22240,90.5,59,177.7,0,26
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Sep-2025,24800,21950,88.6,71,178.4,0,26
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Oct-2025,26600,25280,97.2,17,116.0,0,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Nov-2025,24500,23630,98.5,8,27.9,0,25
+OMC_KOI_11,Koira Manganese Mine,Sundargarh,Odisha,Opencast,Dec-2025,23200,24090,96.8,20,5.3,0,26
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Jan-2022,28200,25550,86.4,85,16.9,0,26
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Feb-2022,27700,26040,93.7,38,16.7,0,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Mar-2022,29100,29430,98.5,9,29.8,0,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Apr-2022,29000,27680,98.1,11,46.6,0,24
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,May-2022,27200,25150,91.3,52,88.7,1,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Jun-2022,28600,24060,92.7,44,239.9,4,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Jul-2022,28600,24130,93.9,38,278.8,3,26
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Aug-2022,27800,23230,95.7,27,544.2,3,26
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Sep-2022,28100,25180,94.2,35,204.6,3,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Oct-2022,28500,27810,98.3,10,121.5,1,24
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Nov-2022,29400,30400,98.1,12,28.6,0,26
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Dec-2022,28600,28450,97.7,14,5.4,0,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Jan-2023,26300,25890,96.6,21,15.5,0,26
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Feb-2023,27500,26240,95.3,27,15.1,0,24
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Mar-2023,27800,27100,96.7,20,29.3,0,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Apr-2023,28200,25900,94.7,32,56.5,0,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,May-2023,27500,25880,98.2,11,102.4,2,26
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Jun-2023,29100,27210,88.5,69,99.5,1,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Jul-2023,28100,24990,96.0,24,394.4,2,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Aug-2023,28600,24210,91.1,51,311.8,5,24
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Sep-2023,27000,24330,91.1,51,161.3,0,24
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Oct-2023,28400,25830,93.7,38,108.3,1,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Nov-2023,29300,28410,94.2,35,26.8,0,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Dec-2023,29400,26190,93.4,38,3.6,0,24
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Jan-2024,26900,24540,90.7,56,13.9,0,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Feb-2024,29700,27630,95.3,28,32.2,0,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Mar-2024,29300,29210,98.2,11,23.6,0,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Apr-2024,28800,27560,97.6,15,61.5,1,26
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,May-2024,25900,24120,95.2,29,87.5,1,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Jun-2024,28700,23910,93.6,37,216.5,3,24
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Jul-2024,28600,25880,93.5,39,130.3,2,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Aug-2024,28300,23790,94.3,34,441.4,5,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Sep-2024,27400,24430,95.3,28,192.6,1,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Oct-2024,30200,27680,95.0,30,76.4,0,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Nov-2024,29500,29350,95.3,28,32.4,0,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Dec-2024,26900,25800,94.2,35,10.0,0,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Jan-2025,28000,28090,97.4,15,19.3,0,24
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Feb-2025,26500,25730,95.0,30,19.7,0,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Mar-2025,28900,28280,95.5,28,35.4,0,26
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Apr-2025,26500,25990,98.5,8,49.0,0,26
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,May-2025,27400,25350,97.1,18,54.9,2,26
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Jun-2025,28500,25120,94.5,33,224.0,3,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Jul-2025,28000,23230,94.3,34,286.2,4,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Aug-2025,28900,24560,92.1,49,321.2,3,26
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Sep-2025,26700,21400,83.0,106,313.8,2,26
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Oct-2025,28400,24450,91.3,52,118.6,2,25
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Nov-2025,28900,27210,94.2,36,22.3,0,26
+TATA_JOD_12,Joda West Manganese Mine,Keonjhar,Odisha,Opencast,Dec-2025,27900,26570,95.0,30,8.1,1,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Jan-2022,30400,30190,97.8,13,4.6,0,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Feb-2022,31500,30710,93.7,38,1.9,1,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Mar-2022,28800,28310,94.2,35,10.8,0,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Apr-2022,31300,29700,97.3,17,47.7,0,26
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,May-2022,28800,27360,95.2,30,64.7,0,26
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Jun-2022,30300,28050,89.3,64,44.4,0,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Jul-2022,30300,30010,97.4,15,120.3,1,24
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Aug-2022,30600,26340,96.5,20,164.8,1,24
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Sep-2022,31100,29450,93.3,40,66.9,0,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Oct-2022,29600,28960,96.5,20,69.6,0,24
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Nov-2022,29900,27940,95.2,30,35.6,0,26
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Dec-2022,29300,27440,91.2,53,8.7,0,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Jan-2023,31400,32000,95.7,26,5.0,0,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Feb-2023,29000,28150,94.7,33,2.4,0,26
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Mar-2023,28300,28560,96.5,22,7.0,0,26
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Apr-2023,29100,29030,98.3,10,28.4,0,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,May-2023,30000,28560,96.8,20,86.0,0,26
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Jun-2023,28700,26070,91.7,50,67.2,1,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Jul-2023,30600,29000,95.7,25,123.6,0,24
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Aug-2023,30300,27220,93.6,40,122.2,2,26
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Sep-2023,29200,26340,96.2,24,89.4,1,26
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Oct-2023,28900,25210,94.8,30,118.5,1,24
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Nov-2023,30200,28670,95.7,26,21.0,0,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Dec-2023,29500,27770,96.0,24,7.8,0,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Jan-2024,31600,28790,91.7,52,4.3,0,26
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Feb-2024,31400,30170,95.8,26,2.2,0,26
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Mar-2024,30400,30770,96.2,23,5.8,0,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Apr-2024,31200,29530,89.7,62,23.0,1,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,May-2024,31700,31160,95.8,25,67.5,0,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Jun-2024,29600,28970,97.2,17,91.4,0,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Jul-2024,29400,26960,96.4,21,130.8,2,24
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Aug-2024,30400,28580,92.5,43,183.7,0,24
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Sep-2024,29700,25260,87.2,74,132.1,2,24
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Oct-2024,31100,28900,98.1,12,111.4,2,26
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Nov-2024,30400,26630,96.5,21,29.2,1,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Dec-2024,30800,28460,96.8,19,9.2,0,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Jan-2025,30200,29550,93.1,43,5.7,0,26
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Feb-2025,32000,29800,89.2,62,1.5,0,24
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Mar-2025,30400,28900,96.5,20,11.2,0,24
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Apr-2025,29900,28290,92.3,46,39.8,0,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,May-2025,28800,25850,93.0,42,67.4,1,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Jun-2025,30800,28170,89.4,61,131.3,1,24
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Jul-2025,29300,26060,89.3,64,146.9,0,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Aug-2025,29500,26840,91.3,52,159.7,1,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Sep-2025,30400,28990,96.5,20,167.8,0,24
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Oct-2025,31300,31120,96.8,19,109.9,1,25
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Nov-2025,28000,26620,96.2,24,31.4,0,26
+SMIORE_SAN_13,Sandur Manganese Mine,Ballari,Karnataka,Opencast,Dec-2025,29500,28180,94.2,35,5.8,1,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Jan-2022,9000,8970,92.0,50,10.9,0,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Feb-2022,9600,9100,93.5,39,3.8,0,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Mar-2022,9200,8270,93.8,37,17.8,1,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Apr-2022,8700,8500,98.5,8,20.1,0,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,May-2022,9500,8560,86.2,83,78.4,1,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Jun-2022,9300,8300,93.3,40,127.4,0,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Jul-2022,9900,8640,95.0,30,170.4,1,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Aug-2022,8800,7750,95.5,27,233.2,2,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Sep-2022,9600,8760,96.6,21,219.5,3,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Oct-2022,9200,8240,93.7,38,198.3,1,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Nov-2022,9900,9010,97.0,19,100.8,1,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Dec-2022,9500,9220,96.8,19,13.2,1,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Jan-2023,9600,9790,96.3,22,7.5,0,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Feb-2023,9100,8780,97.3,17,8.6,0,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Mar-2023,9200,9380,95.5,27,10.3,0,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Apr-2023,9400,9080,95.8,24,10.0,0,24
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,May-2023,9400,8630,95.3,28,55.7,2,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Jun-2023,9800,8500,88.2,68,112.2,2,24
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Jul-2023,9600,8640,91.7,52,198.8,0,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Aug-2023,9700,9000,94.1,37,166.2,0,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Sep-2023,10000,8680,89.0,66,153.4,2,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Oct-2023,9900,8490,90.0,60,128.9,1,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Nov-2023,9400,9110,97.7,14,59.8,0,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Dec-2023,9900,9230,94.1,34,12.6,0,24
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Jan-2024,9600,9280,96.0,25,3.4,1,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Feb-2024,9800,9740,93.3,40,8.0,1,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Mar-2024,8600,8420,96.8,19,10.5,0,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Apr-2024,9700,9510,96.8,20,17.6,0,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,May-2024,9900,9440,97.2,17,53.7,0,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Jun-2024,8900,8190,95.2,30,105.6,0,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Jul-2024,9000,8290,93.9,38,177.2,2,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Aug-2024,9600,8810,95.7,25,170.2,0,24
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Sep-2024,9500,9440,97.1,18,126.5,1,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Oct-2024,9700,8150,90.6,54,170.5,0,24
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Nov-2024,9400,8800,93.4,41,76.9,1,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Dec-2024,9600,9030,97.2,17,8.7,1,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Jan-2025,9200,8630,95.5,26,10.4,0,24
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Feb-2025,9400,8510,92.8,43,6.9,0,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Mar-2025,9400,8720,96.2,24,12.1,0,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Apr-2025,9600,9600,98.5,6,11.0,1,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,May-2025,10500,9460,94.7,33,54.4,1,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Jun-2025,8900,8480,95.5,28,147.3,0,26
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Jul-2025,9500,8300,92.2,47,248.0,4,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Aug-2025,9500,9140,92.8,43,119.8,2,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Sep-2025,9900,8850,86.0,84,183.7,0,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Oct-2025,9900,8920,92.8,43,148.5,1,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Nov-2025,10200,9330,92.3,46,69.4,0,25
+APMDC_GAR_14,Garbham Manganese Mine,Vizianagaram,Andhra Pradesh,Opencast,Dec-2025,9000,8880,98.5,8,8.8,0,25

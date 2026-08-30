@@ -1,0 +1,60 @@
+{
+  "model_name": "Model_A_Gradient_Boosting",
+  "experiment": "Model_A",
+  "algorithm": "Gradient",
+  "features": {
+    "count": 18,
+    "includes": [
+      "Mine_Name",
+      "State",
+      "Mine_Type",
+      "Production_Target_Tonnes",
+      "Equipment_Availability_Pct",
+      "Equipment_Downtime_Hours",
+      "Rainfall_mm",
+      "Blasting_Delay_Days",
+      "Working_Days",
+      "Month",
+      "Quarter",
+      "Production_Lag_1",
+      "Equip_Avail_Lag_1",
+      "Downtime_Lag_1",
+      "Production_Rolling_3",
+      "Equip_Avail_Rolling_3",
+      "Downtime_Per_Working_Day",
+      "Effective_Capacity"
+    ]
+  },
+  "target": "Actual_Production_Tonnes",
+  "training_period": {
+    "start": "2022-01-01",
+    "end": "2024-12-01",
+    "rows": 504
+  },
+  "test_period": {
+    "start": "2025-01-01",
+    "end": "2025-12-01",
+    "rows": 168
+  },
+  "performance": {
+    "test_mae": 764.62,
+    "test_rmse": 1153.38,
+    "test_r2": 0.9689,
+    "test_mape": 5.93,
+    "cv_mae": 789.93,
+    "cv_r2": 0.9655
+  },
+  "selection_criteria": {
+    "criterion_1": "Reliable future/test performance",
+    "criterion_2": "Cross-validation stability",
+    "criterion_3": "Generalization (CV-test gap)",
+    "criterion_4": "Low overfitting",
+    "criterion_5": "Good R\u00b2 (80%+)",
+    "criterion_6": "Interpretability",
+    "criterion_7": "Deployment suitability"
+  },
+  "data_leakage_audit": "PASSED",
+  "overfitting_level": "LOW",
+  "notes": "Ready for prototype prediction pipeline; validation with real operational data required before production deployment",
+  "created": "2026-08-29T22:23:12.627653"
+}

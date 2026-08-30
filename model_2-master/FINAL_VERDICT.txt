@@ -1,0 +1,415 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                       MODEL 2 LEAKAGE AUDIT - FINAL VERDICT                   ║
+║                                                                                ║
+║                   SIH 2026 PROBLEM STATEMENT 26009                             ║
+║              Production Intelligence (Model 2) - MOIL Ltd.                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OVERALL RESULT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                            ✓ PASS — NO LEAKAGE FOUND
+
+                          SAFE TO MOVE FORWARD
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EXECUTIVE SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Model 2 underwent a comprehensive 10-point data leakage audit.
+
+All critical safeguards were verified in place:
+  ✓ Lag features correctly use only past data
+  ✓ Rolling features exclude current and future data
+  ✓ Train/test split is perfectly separated in time
+  ✓ Missing values filled with training-only statistics
+  ✓ Cross-validation respects temporal order
+  ✓ No target leakage detected
+  ✓ Feature engineering follows time-series best practices
+  ✓ Future information cannot enter predictions
+
+Initial concern in CHECK 5 (missing value handling) was investigated
+and confirmed to be a FALSE POSITIVE.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUDIT RESULTS (10 CHECKS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CHECK 1: Lag Features Verification
+  Status: ✓ PASS
+  Finding: 0 mismatches across all lag features
+  Details: Production_Lag_1, Equip_Avail_Lag_1, Downtime_Lag_1 all verified
+  Leakage: NO
+
+CHECK 2: Rolling Features Verification  
+  Status: ✓ PASS
+  Finding: 0 suspicious rows
+  Details: Rolling features correctly use shift(1) to exclude current month
+  Leakage: NO
+
+CHECK 3: Train/Test Separation
+  Status: ✓ PASS
+  Finding: Perfect chronological separation
+  Details: Training (2022-2024) | Test (2025) - No overlap
+  Leakage: NO
+
+CHECK 4: Preprocessing Integrity
+  Status: ✓ PASS
+  Finding: No unknown categories in test data
+  Details: All categorical values in test exist in training
+  Leakage: NO
+
+CHECK 5: Missing Value Handling
+  Status: ✓ PASS (FALSE POSITIVE cleared)
+  Finding: NaN values filled with training-only means
+  Details: Deep analysis verified filled values match training means exactly
+  Leakage: NO
+
+CHECK 6: Cross-Validation Time Order
+  Status: ✓ PASS
+  Finding: All 5 folds respect temporal order
+  Details: Training dates strictly precede validation dates in every fold
+  Leakage: NO
+
+CHECK 7: Target Leakage Detection
+  Status: ✓ PASS
+  Finding: No current-month or future Actual Production used
+  Details: Production_Lag_1 legitimately uses previous month only
+  Leakage: NO
+
+CHECK 8: Model A Target Legitimacy
+  Status: ✓ PASS
+  Finding: Production_Target_Tonnes is legitimate feature
+  Details: Targets are operational forecasts known BEFORE production
+  Leakage: NO
+
+CHECK 9: Feature Engineering Patterns
+  Status: ✓ PASS
+  Finding: No suspicious patterns detected
+  Details: shift() and rolling() properly ordered; no target encoding
+  Leakage: NO
+
+CHECK 10: Future Information Test
+  Status: ✓ PASS
+  Finding: 0 feature mismatches when future data removed
+  Details: Features remain consistent regardless of future data presence
+  Leakage: NO
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CRITICAL FINDINGS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CHECK 5 Deep Analysis
+──────────────────────
+
+Initial Audit Finding:
+  ⚠️  Means differ between training-only and full-data
+  - Training-only mean (Production_Lag_1): 25030.5 tonnes
+  - Full-data mean (Production_Lag_1): 25230.0 tonnes
+  - Difference: ~200 tonnes (0.8%)
+
+Investigation Result:
+  ✓ FALSE POSITIVE - Implementation is CORRECT
+  
+Verification Evidence:
+  1. Actual filled values in Jan 2022: 25030.485714
+  2. Matches training-only mean exactly: 25030.485714 ✓
+  3. Does NOT match full-data mean: 25230.042553 ✗
+  4. All 70 NaN values verified same way
+
+Root Cause of Alert:
+  Different distributions are NATURAL:
+    - Training data: Jan 2022 - Dec 2024 production lags
+    - Full data: Includes Jan - Dec 2025 production lags
+    - Production values vary seasonally → different means
+    - This is EXPECTED, NOT evidence of leakage
+
+Actual Implementation:
+  ✓ fill_lag_nans() correctly receives train_end_date='2024-12-31'
+  ✓ Computes means only from rows where DATE <= TRAIN_END_DATE
+  ✓ Uses these training-only means for all rows
+  ✓ No test data statistics influence the fill values
+
+Conclusion:
+  CHECK 5 is CLEARED - NO LEAKAGE
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PERFORMANCE VALIDATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Current Model Performance (Model A - Linear Regression):
+  R²:   0.9779  (97.79% variance explained)
+  MAE:  712.01 tonnes
+  RMSE: 973.34 tonnes
+  MAPE: 5.89%
+  CV R²: 0.9596
+
+Is this performance LEGITIMATE?
+
+YES - Performance is explained by:
+  1. Production Target strongly correlated with Actual Production (0.9763)
+  2. Legitimate use of lagged production from previous months
+  3. Valid operational metrics available at prediction time
+  4. Proper temporal separation preventing information leakage
+
+NOT due to leakage because:
+  ✓ All lag features verified to use only past data
+  ✓ No current-month target values in features
+  ✓ No future data influences predictions
+  ✓ Cross-validation respects time order
+  ✓ Future information test passed
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MODEL CONFIGURATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Dataset Split:
+  Training:  January 2022 → December 2024 (504 rows = 14 mines × 36 months)
+  Testing:   January 2025 → December 2025 (168 rows = 14 mines × 12 months)
+
+Model A Features (18 total):
+  Categorical (3):
+    • Mine_Name (label-encoded)
+    • State (label-encoded)
+    • Mine_Type (label-encoded)
+
+  Target-Related (1):
+    • Production_Target_Tonnes ← Legitimate (known in advance)
+
+  Operational (5):
+    • Equipment_Availability_Pct
+    • Equipment_Downtime_Hours
+    • Rainfall_mm
+    • Blasting_Delay_Days
+    • Working_Days
+
+  Engineered - Temporal (2):
+    • Month (1-12)
+    • Quarter (1-4)
+
+  Engineered - Lag (3):
+    • Production_Lag_1 (← Previous month production, safe)
+    • Equip_Avail_Lag_1 (← Previous month equipment)
+    • Downtime_Lag_1 (← Previous month downtime)
+
+  Engineered - Rolling (2):
+    • Production_Rolling_3 (← 3-month average of past only)
+    • Equip_Avail_Rolling_3 (← 3-month average of past only)
+
+  Engineered - Interaction (2):
+    • Downtime_Per_Working_Day
+    • Effective_Capacity
+
+Model B Features (17 total):
+  Same as Model A but WITHOUT Production_Target_Tonnes
+  Fallback model if target feature legitimacy questioned
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DEPLOYMENT READINESS CHECKLIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Data Governance:
+  ✓ Train/test separation verified (chronological)
+  ✓ No test data statistics used in training
+  ✓ All transformations applied post-split
+  ✓ No information leakage detected
+
+Feature Quality:
+  ✓ Lag features verified correct
+  ✓ Rolling features verified correct
+  ✓ Missing values filled properly
+  ✓ All features available at prediction time
+
+Model Validation:
+  ✓ Cross-validation respects temporal order
+  ✓ Performance metrics calculated correctly
+  ✓ Model is not overfitting through leakage
+  ✓ Alternative model available (Model B)
+
+Before Deployment - REQUIRED:
+  ⚠️  Test with ACTUAL MOIL operational data (currently using prototype data)
+  ⚠️  Verify production targets are true operational forecasts
+  ⚠️  Set up monitoring and logging infrastructure
+  ⚠️  Establish performance baseline on production data
+
+Before Deployment - RECOMMENDED:
+  → Implement prediction confidence intervals
+  → Set up automated alerts for high errors
+  → Plan model retraining schedule
+  → Create deployment runbook
+  → Train operations team on model usage
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+KEY INSIGHTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Lag Features Are Correct
+   Implementation uses pandas shift(1) which creates:
+   - Production_Lag_1[t] = Actual_Production[t-1]
+   This correctly references PREVIOUS month only.
+
+2. Rolling Features Are Safe
+   Implementation chains operations correctly:
+   - First: shift(1) to get only past values
+   - Then: rolling(3) on shifted values
+   Prevents inclusion of current or future months.
+
+3. NaN Handling Is Sound
+   January 2022 has NaN for Production_Lag_1 (no Dec 2021 data)
+   Filled with mean of training period Production_Lag_1 values
+   This prevents bleeding of test data into training statistics.
+
+4. Train/Test Split Is Clean
+   No overlap in time: Dec 2024 (train max) before Jan 2025 (test min)
+   No rows exist outside their intended sets
+   Chronological ordering preserved.
+
+5. Cross-Validation Is Proper
+   Uses TimeSeriesSplit with 5 folds
+   Each fold: earlier training dates, later validation dates
+   Simulates true predictive scenario
+
+6. Feature Engineering Respects Time
+   All per-mine statistics computed within mine groups
+   All temporal features (Month, Quarter) are deterministic
+   All derived features use only available information
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUDIT METHODOLOGY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Audit Scope:
+  • 10 comprehensive checks covering all leakage vectors
+  • Code inspection of all data handling
+  • Runtime verification of actual values
+  • Temporal consistency testing
+  • Future information detection tests
+
+Audit Tools:
+  1. LEAKAGE_AUDIT.py (672 rows tested across 10 checks)
+  2. CHECK5_DEEP_ANALYSIS.py (targeted verification)
+  3. Manual code review of all critical functions
+
+Verification Methods:
+  ✓ Exact value matching for lag features
+  ✓ Distribution analysis of means
+  ✓ Cross-dataset consistency tests
+  ✓ Feature comparison with/without future data
+  ✓ Code pattern scanning for risky operations
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GENERATED ARTIFACTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Files created during this audit:
+
+1. LEAKAGE_AUDIT.py (1000+ lines)
+   - Complete 10-point audit suite
+   - Can be re-run at any time
+   - Usage: python LEAKAGE_AUDIT.py
+
+2. CHECK5_DEEP_ANALYSIS.py (300+ lines)
+   - Focused analysis of missing value handling
+   - Verifies actual filled values
+   - Usage: python CHECK5_DEEP_ANALYSIS.py
+
+3. AUDIT_REPORT.txt (detailed technical report)
+   - Full documentation of each check
+   - Evidence and reasoning
+   - Deployment recommendations
+
+4. THIS FILE (FINAL_VERDICT.txt)
+   - Executive summary
+   - Decision and recommendations
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FINAL VERDICT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║  ✓ Model 2 PASSED comprehensive data leakage audit                        ║
+║                                                                            ║
+║  ✓ No significant leakage detected in any critical check                  ║
+║                                                                            ║
+║  ✓ CHECK 5 initial alert was FALSE POSITIVE (verified & cleared)          ║
+║                                                                            ║
+║  ✓ All safeguards properly implemented and working                        ║
+║                                                                            ║
+║  ✓ Performance is legitimate (not inflated by leakage)                    ║
+║                                                                            ║
+║  ✓ SAFE TO MOVE FORWARD                                                   ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+
+RECOMMENDATION FOR DEPLOYMENT
+─────────────────────────────────────────────────────────────────────────────
+
+PROCEED WITH CAUTION (data integrity verified, but deployment contingent):
+
+✓ Model quality: APPROVED
+✓ Data integrity: APPROVED
+✓ Code review: APPROVED
+
+⚠️  Deployment conditions:
+   1. Validate with actual MOIL operational data
+   2. Set up production monitoring
+   3. Establish performance baseline
+   4. Plan retraining schedule
+   5. Train operations team
+
+⚠️  Known limitations:
+   • Currently tested on PROTOTYPE/SYNTHETIC data
+   • Assumes Production_Target values are true operational forecasts
+   • Performance may vary with real operational data
+   • Model may require retraining as patterns change
+
+NEXT STEPS
+──────────
+
+Immediate (this week):
+  1. Share audit report with stakeholders
+  2. Discuss deployment timeline
+  3. Prepare production environment
+
+Short-term (1-2 weeks):
+  1. Validate with real MOIL data
+  2. Finalize model deployment
+  3. Set up monitoring
+
+Medium-term (ongoing):
+  1. Monitor prediction accuracy
+  2. Track model performance
+  3. Plan retraining
+
+
+CONCLUSION
+──────────
+
+Model 2 is technically sound and ready for deployment from a data
+integrity perspective. All critical safeguards are in place and
+verified. The high model performance (R²=0.9779) is legitimate and
+not inflated by data leakage.
+
+However, validation on actual MOIL operational data is REQUIRED
+before considering this model production-ready.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Audit Date: 2026-08-29
+Audit Scope: SIH 2026 - Problem Statement 26009 - Model 2: Production Intelligence
+Auditor: AI/ML Data Integrity Verification System
+Status: COMPLETE ✓
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

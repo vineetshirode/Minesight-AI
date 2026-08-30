@@ -1,0 +1,57 @@
+{
+  "best_model": "Model_A_Linear_Regression",
+  "experiments": {
+    "Model_A": {
+      "Linear_Regression": {
+        "MAE": 712.01,
+        "RMSE": 973.34,
+        "R2": 0.9779,
+        "MAPE": 5.89,
+        "CV_MAE": 846.81,
+        "CV_R2": 0.9596
+      },
+      "Random_Forest": {
+        "MAE": 843.4,
+        "RMSE": 1257.97,
+        "R2": 0.963,
+        "MAPE": 6.46,
+        "CV_MAE": 866.52,
+        "CV_R2": 0.959
+      },
+      "Gradient_Boosting": {
+        "MAE": 764.62,
+        "RMSE": 1153.38,
+        "R2": 0.9689,
+        "MAPE": 5.93,
+        "CV_MAE": 789.93,
+        "CV_R2": 0.9655
+      }
+    },
+    "Model_B": {
+      "Linear_Regression": {
+        "MAE": 1288.95,
+        "RMSE": 1664.04,
+        "R2": 0.9353,
+        "MAPE": 10.31,
+        "CV_MAE": 1627.66,
+        "CV_R2": 0.8652
+      },
+      "Random_Forest": {
+        "MAE": 1372.98,
+        "RMSE": 1865.22,
+        "R2": 0.9187,
+        "MAPE": 10.73,
+        "CV_MAE": 1299.15,
+        "CV_R2": 0.9137
+      },
+      "Gradient_Boosting": {
+        "MAE": 1062.6,
+        "RMSE": 1492.98,
+        "R2": 0.9479,
+        "MAPE": 8.25,
+        "CV_MAE": 1220.48,
+        "CV_R2": 0.9251
+      }
+    }
+  }
+}

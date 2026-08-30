@@ -1,0 +1,7 @@
+Experiment,Model,MAE,RMSE,R2,MAPE,CV_MAE,CV_R2
+Model_A,Linear_Regression,712.01,973.34,0.9779,5.89,846.81,0.9596
+Model_A,Gradient_Boosting,764.62,1153.38,0.9689,5.93,789.93,0.9655
+Model_A,Random_Forest,843.4,1257.97,0.963,6.46,866.52,0.959
+Model_B,Gradient_Boosting,1062.6,1492.98,0.9479,8.25,1220.48,0.9251
+Model_B,Linear_Regression,1288.95,1664.04,0.9353,10.31,1627.66,0.8652
+Model_B,Random_Forest,1372.98,1865.22,0.9187,10.73,1299.15,0.9137
