@@ -2296,7 +2296,7 @@ function renderFooter() {
     </details>
     <div class="footer-disc">
       <p>Prototype system for demonstration purposes. Production and exploration outputs should be validated with official geological, operational and field data before real-world decision making. Independent academic prototype for Smart India Hackathon 2026 — not affiliated with, or endorsed by, MOIL Ltd. or the Ministry of Steel.</p>
-      <p class="right">Demonstration data only<br>Exploration priority ≠ confirmed reserves</p>
+      <p class="right">Demonstration data only<br>Exploration priority ≠ confirmed reserves<br><span style="display:block;margin-top:6px;color:var(--gmute);text-transform:none;letter-spacing:.06em">© Vineet Shirode</span></p>
     </div>
   </div>`;
 }
