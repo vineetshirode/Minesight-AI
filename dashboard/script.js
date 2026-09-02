@@ -2235,8 +2235,8 @@ function MethodologyView() {
             ${lrow('Data leakage audit', 'PASSED \u2014 verified by independent audit script', 'v-ok')}
             ${lrow('Model overfit level', 'LOW \u2014 CV-test gap within acceptable range', 'v-ok')}
             ${lrow('Production target feature', 'Retained in Model A \u2014 models target-aware planning', 'v-ok')}
-            ${lrow('SHAP analysis', 'Available \u2014 outputs in model_2-master/outputs/', 'v-ok')}
-            ${lrow('Full source code', 'Available in model_1-master/ and model_2-master/', 'v-ok')}
+            ${lrow('SHAP analysis', 'Available \u2014 outputs in model_2/outputs/', 'v-ok')}
+            ${lrow('Full source code', 'Available in model_1/ and model_2/', 'v-ok')}
           </div>
         </div></div>
       </section>

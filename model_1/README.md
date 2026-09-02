@@ -19,7 +19,7 @@ It unifies:
 ## 2. Directory Structure
 
 ```text
-model_1-master/
+model_1/
 ├── data/
 │   ├── raw/
 │   │   ├── manganese_occurrences_SIH26009.csv       # National reference occurrences (25 records)
@@ -55,7 +55,7 @@ model_1-master/
 To execute the complete Model 1 feature engineering and validation suite:
 
 ```bash
-cd model_1-master
+cd model_1
 python run_pipeline.py
 ```
 

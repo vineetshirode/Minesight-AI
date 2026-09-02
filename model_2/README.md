@@ -109,14 +109,15 @@ $$\text{Shortfall \%} = \frac{\text{Predicted Shortfall}}{\text{Production Targe
 ## 6. Project Structure
 
 ```
-model2_production/
+model_2/
 ├── data/
 │   ├── raw/
 │   │   └── manganese_production_prototype_v2.csv   # 672 raw prototype records
 │   └── processed/
 │       └── production_engineered.csv               # Dataset with lag & rolling features
 ├── models/
-│   ├── production_model.pkl                        # Best trained model (Gradient Boosting)
+│   ├── Model_A_Gradient_Boosting.pkl               # Production trained Gradient Boosting model
+│   ├── production_model.pkl                        # Best trained model artifact
 │   └── encoders.pkl                                # Serialized label encoders
 ├── outputs/
 │   ├── production_predictions.csv                  # 2025 Test predictions + shortfall + recs
@@ -135,6 +136,14 @@ model2_production/
 │   ├── explainability.py                           # SHAP & Feature importance
 │   ├── recommendations.py                          # Rule-based decision-support engine
 │   └── predict.py                                  # Inference & master predictions exporter
+├── audit/                                          # Independent leakage & model selection audits
+│   ├── AUDIT_REPORT.txt
+│   ├── CHECK5_DEEP_ANALYSIS.py
+│   ├── FINAL_MODEL_SELECTION_AUDIT.py
+│   ├── FINAL_VERDICT.txt
+│   ├── LEAKAGE_AUDIT.py
+│   ├── QUICK_REFERENCE.txt
+│   └── audit_output.txt
 ├── run_pipeline.py                                 # End-to-end one-command pipeline runner
 └── README.md
 ```

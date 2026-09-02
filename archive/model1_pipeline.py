@@ -24,7 +24,9 @@ import matplotlib.colors as mcolors
 # -----------------------------------------------------------------------------
 # Configuration & Spatial Parameters
 # -----------------------------------------------------------------------------
-OUTPUT_DIR = "output"
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "outputs")
+DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Study Area Geographic Bounding Box (incorporating ~15-20km exploration buffer)
@@ -43,8 +45,12 @@ GRID_RESOLUTION_M = 1000.0 # 1.0 km x 1.0 km regular polygonal grid
 # -----------------------------------------------------------------------------
 def load_occurrences():
     print("Loading historical manganese occurrences...")
-    study_occ_path = "manganese_occurrences_MOIL_study_area.csv"
-    all_occ_path = "manganese_occurrences_SIH26009.csv"
+    study_occ_path = os.path.join(DATA_DIR, "manganese_occurrences_MOIL_study_area.csv")
+    if not os.path.exists(study_occ_path):
+        study_occ_path = "manganese_occurrences_MOIL_study_area.csv"
+    all_occ_path = os.path.join(DATA_DIR, "manganese_occurrences_SIH26009.csv")
+    if not os.path.exists(all_occ_path):
+        all_occ_path = "manganese_occurrences_SIH26009.csv"
     
     df_study = pd.read_csv(study_occ_path)
     df_all = pd.read_csv(all_occ_path)
@@ -315,8 +321,8 @@ sys.stdout.reconfigure(encoding='utf-8')
 # -----------------------------------------------------------------------------
 def export_datasets(gdf):
     print("Exporting unified spatial feature layers...")
-    csv_path = "model1_spatial_features.csv"
-    geojson_path = "model1_spatial_features.geojson"
+    csv_path = os.path.join(OUTPUT_DIR, "model1_spatial_features.csv")
+    geojson_path = os.path.join(OUTPUT_DIR, "model1_spatial_features.geojson")
     
     # Export CSV (omitting geometry column for clean tabular usage)
     df_export = pd.DataFrame(gdf.drop(columns=["geometry"]))

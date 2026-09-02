@@ -30,7 +30,7 @@ logger = logging.getLogger("minesight_api")
 
 # Base directory paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-M2_DIR = os.path.join(BASE_DIR, "model_2-master")
+M2_DIR = os.path.join(BASE_DIR, "model_2")
 MODELS_DIR = os.path.join(M2_DIR, "models")
 DATA_DIR = os.path.join(M2_DIR, "data", "processed")
 DASH_DIR = os.path.join(BASE_DIR, "dashboard")
@@ -101,7 +101,7 @@ class ModelManager:
             self.model_name = "production_model"
             logger.info(f"[ModelManager] Loaded model from {prod_model_path}")
         else:
-            raise FileNotFoundError("No trained Model 2 artifact found in model_2-master/models/")
+            raise FileNotFoundError("No trained Model 2 artifact found in model_2/models/")
 
         # 2. Load Label Encoders
         enc_path = os.path.join(MODELS_DIR, "encoders.pkl")
@@ -428,9 +428,10 @@ if os.path.exists(DASH_DIR):
 
 if __name__ == "__main__":
     import uvicorn
+    port = int(os.environ.get("PORT", 8000))
     print("\n" + "=" * 70)
     print("  MINESIGHT AI — FASTAPI ML SIMULATION SERVER")
-    print("  Serving Dashboard & API on: http://127.0.0.1:8000")
-    print("  API Docs available on:       http://127.0.0.1:8000/docs")
+    print(f"  Serving Dashboard & API on: http://127.0.0.1:{port}")
+    print(f"  API Docs available on:       http://127.0.0.1:{port}/docs")
     print("=" * 70 + "\n")
-    uvicorn.run("server:app", host="127.0.0.1", port=8000, reload=False)
+    uvicorn.run("server:app", host="0.0.0.0", port=port, reload=False)

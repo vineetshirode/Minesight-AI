@@ -18,8 +18,8 @@ import sys
 import os
 from fastapi.testclient import TestClient
 
-# Ensure root is in sys.path
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# Ensure project root is in sys.path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from server import app, manager, FEATURE_COLS
 
