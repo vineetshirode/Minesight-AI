@@ -383,7 +383,7 @@ function OverviewView() {
         <div class="hero-grid">
           <div class="hero-copy">
             <p class="k kick-rule hero-kick">SIH 2026 · Problem 26009 · Ministry of Steel — MOIL Ltd.</p>
-            <h1 class="h-display">MineSight<br><em>AI</em></h1>
+            <h1 class="h-display">MineSight <span class="hero-ai">AI</span></h1>
             <p class="hero-tag">AI + Space Technology for smarter mining decisions.</p>
             <p class="hero-lede">MineSight AI reads geological, historical, satellite and operational signals together — to surface high-priority exploration areas, forecast production risk, explain what is driving it, and recommend corrective action before the shortfall reaches the month-end report.</p>
             <div class="hero-cta">
@@ -393,17 +393,7 @@ function OverviewView() {
             <p class="hero-note">Prospectivity is built from surface &amp; sub-surface indicators. Satellite inputs guide exploration priority — they do not directly detect underground reserves.</p>
           </div>
           <figure class="terrain-fig">
-            <div class="terrain" id="hero-map-wrap">
-              <div id="hero-map" style="width:100%;height:100%;border-radius:inherit"></div>
-              <span class="terrain-tag tl">Model 1 — Exploration Intelligence</span>
-              <span class="terrain-tag tr">Study region · MP / MH</span>
-              <div class="hero-map-legend" id="hero-map-legend">
-                <span><i style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#C9662B;margin-right:4px"></i>HIGH</span>
-                <span><i style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#8A671C;margin-right:4px"></i>MEDIUM</span>
-                <span><i style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#3F6A4C;margin-right:4px"></i>LOW</span>
-                <span><i style="display:inline-block;width:7px;height:7px;border-radius:50%;background:#EDEAE2;border:1.5px solid #C9662B;margin-right:4px"></i>Occurrence</span>
-              </div>
-            </div>
+            <div class="terrain" id="hero-map-wrap"></div>
             <figcaption class="terrain-cap">Model 1 spatial intelligence · satellite basemap · 21,067 grid cells scored · DEMO/SYNTHETIC</figcaption>
           </figure>
         </div>
@@ -628,7 +618,14 @@ function OverviewView() {
     html, mount() {
       const cleanups = [];
       const m = mountStudyMap(); if (m) cleanups.push(m);
-      const h = mountHeroMap(); if (h) cleanups.push(h);
+      if (typeof window.mountProspectivityMap === 'function') {
+        const p = window.mountProspectivityMap('hero-map-wrap');
+        if (p && typeof p.then === 'function') {
+          p.then(unmount => { if (unmount) cleanups.push(unmount); });
+        } else if (typeof p === 'function') {
+          cleanups.push(p);
+        }
+      }
       return () => cleanups.forEach(fn => fn());
     }
   };
@@ -831,86 +828,9 @@ function SystemView() {
 }
 
 /* ==================================================================
-   07a · HERO MAP — real Leaflet satellite map with Model 1 scores
+   07a · HERO MAP — React ManganeseProspectivityMap integrated via map-bundle.js
    ================================================================== */
-function mountHeroMap() {
-  const wrap = document.getElementById('hero-map-wrap');
-  const elx = document.getElementById('hero-map');
-  if (!wrap || !elx || typeof L === 'undefined') return null;
-
-  /* Satellite basemap — ESRI World Imagery (free, no key required) */
-  const map = L.map(elx, {
-    scrollWheelZoom: false, zoomControl: true,
-    attributionControl: true, dragging: true
-  });
-  map.attributionControl.setPrefix('');
-
-  /* Primary: ESRI World Imagery (satellite). Fallback: CartoDB dark */
-  const satellite = L.tileLayer(
-    'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-    { maxZoom: 18, attribution: 'Tiles © Esri — Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and GIS User Community' }
-  ).addTo(map);
-
-  /* Terrain / topo fallback layer (toggle) */
-  const topo = L.tileLayer(
-    'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_2jg7_1_53a3f4de78ee87d794db67c2',
-    { maxZoom: 19, attribution: '© OpenStreetMap contributors © CARTO', subdomains: 'abcd' }
-  );
-
-  /* Model 1 exploration score circles (top 500 cells from exploration_scores.json) */
-  const expLayer = L.layerGroup();
-  const expData = Data.getExploration();
-  if (expData && expData.top_cells && expData.top_cells.length) {
-    const clrMap = { HIGH: '#C9662B', MEDIUM: '#8A671C', LOW: '#3F6A4C' };
-    const radMap = { HIGH: 1800, MEDIUM: 1400, LOW: 1000 };
-    expData.top_cells.forEach(c => {
-      L.circleMarker([c.lat, c.lon], {
-        radius: c.cls === 'HIGH' ? 8 : c.cls === 'MEDIUM' ? 6 : 4,
-        color: clrMap[c.cls] || '#6F6C63',
-        fillColor: clrMap[c.cls] || '#6F6C63',
-        fillOpacity: 0.55, weight: 1, opacity: 0.8
-      }).bindTooltip(
-        `<b>${esc(c.id)}</b><br>Score: ${c.score} · ${c.cls}<br>${esc(c.district)}<br>` +
-        `Elevation: ${c.elevation} m · NDVI: ${c.ndvi}<br>` +
-        `<em style="font-size:10px;opacity:.7">DEMO/SYNTHETIC — not confirmed reserve</em>`,
-        { direction: 'top', className: 'mi-tip' }
-      ).addTo(expLayer);
-    });
-    expLayer.addTo(map);
-  }
-
-  /* Historical occurrences */
-  const occ = Data.getOccurrencePoints();
-  const occLayer = L.layerGroup();
-  if (occ.ok && occ.points.length) {
-    occ.points.forEach(p => {
-      L.circleMarker([p.lat, p.lon], {
-        radius: 5, color: '#C9662B', fillColor: '#F1EEE7',
-        fillOpacity: 0.9, weight: 2
-      }).bindTooltip(`<b>${esc(p.name)}</b><br>${esc(p.district)} · ${esc(p.state)}<br>${esc(p.deposit)}<br><em style="font-size:10px;opacity:.7">Historical occurrence · live CSV</em>`,
-        { direction: 'top', className: 'mi-tip' }).addTo(occLayer);
-    });
-    occLayer.addTo(map);
-  }
-
-  /* Study envelope */
-  L.rectangle(Registry.studyArea.envelope, {
-    color: 'rgba(201,102,43,.6)', weight: 1.2, fill: false, dashArray: '4 4'
-  }).addTo(map);
-
-  /* Layer control */
-  const baseLayers = { 'Satellite (ESRI)': satellite, 'Dark terrain (CARTO)': topo };
-  const overlays = {};
-  if (expData && expData.top_cells) overlays['Exploration scores (Model 1)'] = expLayer;
-  if (occ.ok && occ.points.length) overlays['Historical occurrences (live)'] = occLayer;
-  L.control.layers(baseLayers, overlays, { position: 'bottomright', collapsed: true }).addTo(map);
-
-  /* Fit to study area */
-  map.fitBounds(Registry.studyArea.envelope, { padding: [16, 16] });
-  MapKit.scrollGuard(map);
-
-  return () => map.remove();
-}
+function mountHeroMap() { return null; }
 
 
 /* mountTerrain kept for backward compatibility — noop when hero-map replaces it */

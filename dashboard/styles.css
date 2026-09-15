@@ -46,6 +46,9 @@ svg{display:block}
 .kick-rule::before{content:"";display:inline-block;width:26px;height:1px;background:var(--oxide);vertical-align:middle;margin-right:12px}
 
 .h-display{font-size:clamp(40px,8vw,96px);font-weight:620;line-height:.96;letter-spacing:-.01em;text-transform:uppercase}
+.h-display em,
+.h-display .hero-ai{font-family:inherit;font-style:normal;font-weight:inherit;font-size:inherit;color:var(--oxide-2);margin-left:.12em}
+#hero-map-wrap .msa-map-wrap{border:none;border-radius:inherit;box-shadow:none;width:100%;height:100%;min-height:100%}
 .h1{font-size:clamp(30px,4.4vw,52px);font-weight:580;line-height:1.06;letter-spacing:-.02em}
 .h2{font-size:clamp(22px,2.6vw,31px);font-weight:570;line-height:1.15;letter-spacing:-.015em}
 .h3{font-size:19px;font-weight:580;letter-spacing:-.01em}
