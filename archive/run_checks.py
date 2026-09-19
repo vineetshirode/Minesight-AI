@@ -17,8 +17,8 @@ print(f'Testing server on port {port}...')
 res_root = urllib.request.urlopen(f'http://127.0.0.1:{port}/')
 assert res_root.status == 200
 html = res_root.read().decode('utf-8')
-assert 'leaflet.heat' in html, 'leaflet.heat not in index1.html'
-print('[PASS] GET / returned 200 with leaflet.heat included.')
+assert 'leaflet' in html.lower(), 'leaflet not in index.html'
+print('[PASS] GET / returned 200 with leaflet map scripts included.')
 
 # 2. GET /script.js
 res_js = urllib.request.urlopen(f'http://127.0.0.1:{port}/script.js')

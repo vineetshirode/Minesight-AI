@@ -10,7 +10,7 @@ print("=" * 75)
 
 # 1. Structure Verification
 required_paths = [
-    "dashboard/index1.html",
+    "dashboard/index.html",
     "dashboard/script.js",
     "dashboard/styles.css",
     "dashboard/data/exploration_scores.json",

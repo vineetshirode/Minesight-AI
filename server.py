@@ -234,10 +234,10 @@ class SimulationRequest(BaseModel):
 # -----------------------------------------------------------------------------
 @app.get("/")
 def read_root():
-    """Serves dashboard/index1.html at the root URL '/'."""
-    index1_path = os.path.join(DASH_DIR, "index1.html")
-    if os.path.exists(index1_path):
-        return FileResponse(index1_path)
+    """Serves dashboard/index.html at the root URL '/'."""
+    index_path = os.path.join(DASH_DIR, "index.html")
+    if os.path.exists(index_path):
+        return FileResponse(index_path)
     raise HTTPException(status_code=404, detail="Dashboard index file not found")
 
 

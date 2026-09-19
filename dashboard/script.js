@@ -4,7 +4,7 @@
    03 · REGISTRY
    ================================================================== */
 const Registry = {
-  version: '1.0.0 — Final integration · all models connected',
+  version: '2.1 — Final integration · all models connected',
   models: {
     exploration: {
       name: 'Model 1 — Exploration Intelligence', connected: true,
@@ -402,7 +402,7 @@ function OverviewView() {
           <div class="fact"><b>3</b><span>Study districts · MP + MH</span></div>
           <div class="fact"><b>14</b><span>Mines in production model</span></div>
           <div class="fact"><b>48</b><span>Months of production series</span></div>
-          <div class="fact"><b>v1.0</b><span>Full integration shipped</span></div>
+          <div class="fact"><b>v2.1</b><span>Full integration shipped</span></div>
         </div>
       </div>
     </section>
@@ -607,7 +607,7 @@ function OverviewView() {
             ${lrow('Serving mode', serving[0], serving[1])}
             ${lrow('Enable CSV import', '<code>python -m http.server 8000</code>', 'v-mute', true)}
             ${lrow('Design system', 'SHIPPED — <a href="#/system">/#/system</a>', 'v-ok')}
-            ${lrow('Build progress', 'v1.0 — FULL INTEGRATION SHIPPED', 'v-ok')}
+            ${lrow('Build progress', 'v2.1 — FULL INTEGRATION SHIPPED', 'v-ok')}
           </div></div>
         </div>
         <p class="foot-note">Model performance — prototype validation · ${Registry.models.production.metrics.algorithm} · ${Registry.models.production.metrics.window} · MAE ${Registry.models.production.metrics.MAE} · RMSE ${Registry.models.production.metrics.RMSE} · R² ${Registry.models.production.metrics.R2} · MAPE ${Registry.models.production.metrics.MAPE}</p>
@@ -2277,7 +2277,7 @@ document.addEventListener('click', e => {
    10 · BOOT
    ================================================================== */
 addEventListener('hashchange', render);
-console.info('%cMINESIGHT AI%c v1.0.0 — Full integration · all models connected · registry at MI.Registry · DemoModel at MI.DemoModel',
+console.info('%cMINESIGHT AI%c v2.1 — Full integration · all models connected · registry at MI.Registry · DemoModel at MI.DemoModel',
   'color:#C9662B;font-weight:bold', 'color:inherit');
 (async function init() {
   await Data.hydrate();
